@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="cFunctions">
+      <UniqueIdentifier>{5e33d385-1254-4a05-ac6c-24d58b844ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cGame">
+      <UniqueIdentifier>{80cdb85d-4645-4973-9536-3442c7c48983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cD3D">
+      <UniqueIdentifier>{8bc7990b-33c3-4fcb-9573-0b9e0c8a1b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="cMainMenu">
+      <UniqueIdentifier>{fc7911c4-6e45-4bcf-95b2-00bac2c2ab2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cGUI">
+      <UniqueIdentifier>{c66b0143-300f-40b5-9753-71ae2aa58e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cPortalGame">
+      <UniqueIdentifier>{929d9339-d3ac-4126-8680-0f75994f5844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cHighScore">
+      <UniqueIdentifier>{52c0322a-9149-4f72-883f-f817a5f0b432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cHelpMenu">
+      <UniqueIdentifier>{fda0bb7b-713b-42c2-83e8-9c48faafad32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cGameBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cFunctions.h">
+      <Filter>cFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="cGame.h">
+      <Filter>cGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cD3D.h">
+      <Filter>cD3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainMenu.h">
+      <Filter>cMainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="cGUI.h">
+      <Filter>cGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="cPortalGame.h">
+      <Filter>cPortalGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cHighScore.h">
+      <Filter>cHighScore</Filter>
+    </ClInclude>
+    <ClInclude Include="cHelpMenu.h">
+      <Filter>cHelpMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Portal Project.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cFunctions.cpp">
+      <Filter>cFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="cGame.cpp">
+      <Filter>cGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cD3D.cpp">
+      <Filter>cD3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainMenu.cpp">
+      <Filter>cMainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="cGUI.cpp">
+      <Filter>cGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="cPortalGame.cpp">
+      <Filter>cPortalGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cHighScore.cpp">
+      <Filter>cHighScore</Filter>
+    </ClCompile>
+    <ClCompile Include="cHelpMenu.cpp">
+      <Filter>cHelpMenu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
